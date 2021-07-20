@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <include layout="@layout/toolbar_mypage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/textMemName"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundrectangle"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:text="NAME"
+            android:textAlignment="center"
+            android:textColor="@color/colorPont"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/memberName"
+            android:layout_width="205dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/round"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/btn_ChangeName"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundrectangle"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:text="CHANGE"
+            android:textAlignment="center"
+            android:textColor="@color/colorPont"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/textMemPhone"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundrectangle"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:text="PHONE"
+            android:textAlignment="center"
+            android:textColor="@color/colorPont"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/memberPhone"
+            android:layout_width="205dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/round"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/btn_ChangePhone"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundrectangle"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:text="CHANGE"
+            android:textAlignment="center"
+            android:textColor="@color/colorPont"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/sw_Alarm"
+        android:layout_width="387dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/round"
+        android:text="    ALARM"
+        android:textColor="@color/colorPont"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/sw_Push"
+        android:layout_width="387dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/round"
+        android:text="      PUSH"
+        android:textColor="@color/colorPont"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="LOGOUT" />
+
+        <Button
+            android:id="@+id/btn_withdraw"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="WITHDRAW" />
+
+    </LinearLayout>
+
+</LinearLayout>
